@@ -1,3 +1,12 @@
 img {
     width: 200px;
 }
+
+.current-page a {
+    color: pink;
+}
+
+.gallery {
+    display: box;
+    border: 
+}
