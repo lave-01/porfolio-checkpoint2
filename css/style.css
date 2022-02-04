@@ -1,12 +1,80 @@
+h1 {
+    font-size: 30px;
+    margin: 12px 0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+h3 {
+    font-size: 26px;
+    margin: 8px 0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+a {
+    font-size: 22px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+nav li {
+    background-color: rgb(220, 241, 241);
+    font-family: 'Yantramanav', sans-serif;
+    padding: 12px;
+    border: 1px solid lavender;
+}
+
+.current-page {
+    background-color: rgb(220, 241, 241);
+    font-weight: bold;
+    border: 1px solid lavender;
+}
+
+footer {
+    background-color: lightgoldenrodyellow;
+    padding: 32px 8px;
+}
+
+/* Add style to your images focusing on the box model. */
+
+.gallery {
+    box-sizing: border-box;
+}
+
 img {
-    width: 200px;
+    display: inline-block;
+    border: 4px solid lavenderblush;
+    height: 200px;
+    margin-top: 4px;
+    padding: 30px auto;
+    text-align: center;
+    width: 215px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* Add a hover style to your images */
+
+img:hover {
+    border: dashed lightblue;
 }
 
 .current-page a {
     color: pink;
-}
-
-.gallery {
-    display: box;
-    border: 
 }
