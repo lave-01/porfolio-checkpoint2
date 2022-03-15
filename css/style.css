@@ -1,24 +1,28 @@
 h1 {
     font-size: 30px;
-    margin: 12px 0;
+    margin: 10px 0;
     font-family: 'Yantramanav', sans-serif;
+    padding: 1.8em;
 }
 
 h2 {
     font-size: 28px;
     margin: 10px 0;
     font-family: 'Yantramanav', sans-serif;
+    padding: 1.5em;
 }
 
 h3 {
     font-size: 26px;
     margin: 8px 0;
     font-family: 'Yantramanav', sans-serif;
+    padding: 1em 1em 1em 0.5em;
 }
 
 p {
     font-size: 22px;
     font-family: 'Yantramanav', sans-serif;
+    padding: 0.5em;
 }
 
 a {
@@ -75,6 +79,42 @@ img:hover {
     border: dashed lightblue;
 }
 
+img:nth-child(3n+0):hover {
+    border: dashed purple;
+}
+
 .current-page a {
     color: pink;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #38803C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+    margin: 2em 2em 2em 2em;
 }
